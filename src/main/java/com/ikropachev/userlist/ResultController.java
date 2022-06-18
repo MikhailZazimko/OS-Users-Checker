@@ -11,9 +11,9 @@ import static com.ikropachev.userlist.UserListUtil.checkUser;
 public class ResultController {
 
     @GetMapping("/result")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        name = checkUser(name);
-        model.addAttribute("name", name);
+    public String greeting(@RequestParam(name="name", required=false, defaultValue="user:empty") String name, Model model) {
+        String resultMessage = checkUser(name);
+        model.addAttribute("resultMessage", resultMessage);
         return "result";
     }
 
