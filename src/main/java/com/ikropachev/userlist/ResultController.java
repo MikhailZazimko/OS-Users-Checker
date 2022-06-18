@@ -14,7 +14,7 @@ public class ResultController {
     private static final Logger log = getLogger(ResultController.class);
 
     @GetMapping("/result")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="user:emptyDefault") String name, Model model) {
+    public String getResult(@RequestParam(name="name", required=false, defaultValue="user:emptyDefault") String name, Model model) {
         log.info("try to get result with name {}", name);
         String resultMessage = checkUser(name);
         model.addAttribute("resultMessage", resultMessage);
