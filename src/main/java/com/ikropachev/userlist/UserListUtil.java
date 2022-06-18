@@ -17,7 +17,6 @@ public class UserListUtil {
                 result = "Пользователь есть";
                 break;
             }
-            ;
         }
         return result;
     }
