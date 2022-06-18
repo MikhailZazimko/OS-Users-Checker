@@ -13,10 +13,11 @@ public class UserListUtil {
         Netapi32Util.User[] users = Netapi32Util.getUsers();
         log.info("try to find user with name {}", name);
         for (Netapi32Util.User user : users) {
-            if ((user.name).equals(name)){
+            if ((user.name).equals(name)) {
                 result = "Пользователь есть";
                 break;
-            };
+            }
+            ;
         }
         return result;
     }
