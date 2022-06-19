@@ -2,10 +2,10 @@ package com.ikropachev.userlist;
 
 import org.junit.jupiter.api.Test;
 
-import static com.ikropachev.userlist.UserListUtil.checkUser;
+import static com.ikropachev.userlist.CheckUserUtil.checkUser;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class UserListUtilTest {
+public class CheckUserUtilTest {
 
     @Test
     void getAdmin() {

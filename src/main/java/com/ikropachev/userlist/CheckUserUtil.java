@@ -5,8 +5,8 @@ import org.slf4j.Logger;
 
 import static org.slf4j.LoggerFactory.getLogger;
 
-public class UserListUtil {
-    private static final Logger log = getLogger(UserListUtil.class);
+public class CheckUserUtil {
+    private static final Logger log = getLogger(CheckUserUtil.class);
 
     public static String checkUser(String name) {
         String result = "Пользователя нет";
