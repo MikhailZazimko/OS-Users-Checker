@@ -23,4 +23,4 @@ Spring-boot web api for checking user presence on Local Machine with Windows.
 
 Tech stack: Maven, Spring Boot, JDK17, JNA, SLF4J, Logback, JUnit5, Swagger v3.
 
-[Swagger REST API](http://localhost:8080/swagger-ui.html)
+[Swagger REST API](http://localhost:8080/swagger-ui/index.html)
